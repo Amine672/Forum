@@ -1,0 +1,7 @@
+{% extends 'base.html.twig' %}
+{% block midle %}
+    {% for topic in topics %}
+    <h1> {{topic.nameTopic}}<h1>
+    <h1> {{topic.description}}<h1>
+    {% endfor %}
+{% endblock %}
